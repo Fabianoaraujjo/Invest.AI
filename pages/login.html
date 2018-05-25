@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>invest.Ai - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/login-style.css">
+    <script type="text/javascript"src="../js/validacao.js"></script>
+    
+</head>
+<body>
+    <div class="back-img"></div>
+    <a href="../index.html" id="voltar"><img src="../images/icon_return.png" alt=""></a>
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="form-box col-lg-5 col-md-5">
+                <h2>Login</h2>
+                <form action="#" action="POST">
+                    <input type="text" class="form-control" placeholder="Usuário">
+                    <input type="password" class="form-control" placeholder="Senha">
+                    <button class="btn btn-primary" type="submit">Entrar</button>
+                </form>
+                <p class="text-center">ou</p>
+                <div class="social">
+                    <a href="#">
+                        <img src="../images/icon_facebook2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../images/icon_google.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="form-box col-lg-5 col-md-5 ">
+                <h2>Cadastro</h2>
+                <form action="#" action="POST">
+                    <input type="text" name="" value="" class="form-control" placeholder="Nome" required="required">
+                    <input type="text" name="" value="" class="form-control" placeholder="Sobrenome" required="required">
+                    <input type="email" name="" onblur="validacaoEmail(this)"  value="" placeholder="E-mail" class="form-control" required="required">
+                    <input type="text" name="" value="" class="form-control" placeholder="Apelido" required="required">
+                    <input type="password" name="" value="" class="form-control" placeholder="Senha" required="required">
+                    <button class="btn btn-primary" type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
